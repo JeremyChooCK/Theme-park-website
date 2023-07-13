@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Explore</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/explore.css" />
+ <hr>
+  </head>
+    <body>
+        <!-- NAVIGATION BAR START -->
+        <nav>
+          <div class="nav-left"><!-- left half of navigation bar -->
+              <a href="index.html" id="logo"><img src="images/home/navigation bar/logo.png" alt="logo"></a>
+          </div>
+          <div class="nav-right"><!-- right side of navigation bar -->
+              <a href="booking.html" id="tickets">Tickets</a><!-- tickets button leads to booking page -->
+              <a href="explore.html" id="explore">Explore</a><!-- explore button leads to explore page-->
+              <a href="" id="login">Login / Signup</a><!-- login/signup button -->
+              <div class="search-container"><!-- container for search bar -->
+                  <form action="/search" method="get">
+                    <input class="search" id="searchleft" type="search" name="q" placeholder="Search">
+                    <label class="button searchbutton" for="searchleft"><img src="images/home/icons/search icon.png" class="search-icon" alt="search button"></label>
+                  </form>
+              </div>
+          </div>
+      </nav>
+      <!-- NAVIGATION BAR END -->
+
+        <!-- EVENTS DISPLAY START -->
+        <main class="events">
+          <h1>Events</h1><!-- events title -->
+          <div class="img-contents"><!-- events container -->
+            <div class="image-wrapper"><!-- div for each img + description -->
+              <img src="images/explore/Theme park 1.jpeg"><!-- event img -->
+              <p><!-- event description -->
+                Opening event : Save up to 30% when you purchase 2 or more tickets!<br>
+                Second half Opening Date : July 1
+              </p>
+              </div>    
+    
+              <div class="image-wrapper"><!-- div for each img + description -->
+              <img src="images/explore/Theme park 2.jpeg"/>  <!-- event img -->
+              <p><!-- event description -->
+                Download the App for Helpful In-Park Guidance
+              </p>
+              </div>
+          </div>
+          <section id="section"><!-- wave animation -->
+            <div class='air air1'></div><!-- wave 1 -->
+            <div class='air air2'></div><!-- wave 2 -->
+            <div class='air air3'></div><!-- wave 3 -->
+            <div class='air air4'></div><!-- wave 4 -->
+          </section>
+        </main>
+        <!-- EVENTS DISPLAY END -->
+
+        <h1 class="interactiveheader">Park Map</h1><!-- Interactive map title -->
+        <!-- Interactive Map -->
+        <figure class = "map-container">
+            <img src="images/explore/Main Layout.jpg" usemap="#image_map" id="map">
+            <map name="image_map"></map>
+              <!-- Opening Hours -->
+              
+            <div id = sidebar>
+              <img src="images/explore/opening hours.PNG" alt="">
+            </div>
+          </figure>
+        
+            <section class="details">
+              <!-- First Picture -->
+              <div class="description-container">
+                <img src="images/explore/Ferry Wheel1.jpg">
+                <div class="icon-container"></div>
+                <div class="icon"><img src="images/home/icons/ferris-wheel.png" alt=""></div>
+                <div class=" description alternatecolors1">
+                  <h2>Ferry Wheel</h2>
+                    <p id = "ferrywheel">
+                      Experience the thrill of soaring high above the city on our magnificent Ferris wheel! With breathtaking views and a gentle, relaxing ride, our Ferris wheel is the perfect attraction for all ages. Step into one of our comfortable gondolas and let the world fade away as you rise higher and higher into the sky. Don’t miss out on this unforgettable experience - come ride our Ferris wheel today!
+                    </p>
+                </div>
+              </div>
+              <!-- Second Picture -->
+              <div class="description-container">
+                <img src="images/explore/Roller Coaster1.jpg">
+                <div class="icon-container"></div>
+                <div class="icon"><img src="images/home/icons/roller-coaster.png" alt=""></div>
+                <div class=" description  alternatecolors2">
+                    <h2>Roller Coaster</h2>
+                    <p id = "ferrywheel">
+                      Get ready for the ride of your life on our exhilarating roller coaster! Feel the wind in your hair and the adrenaline pumping through your veins as you twist, turn, and plummet at breakneck speeds. Our state-of-the-art coaster is designed for maximum thrills, with heart-stopping drops and breathtaking loops that will leave you screaming for more. Don’t miss out on the ultimate thrill ride - come experience our roller coaster today!
+                    </p>
+                </div>
+              </div>
+              <!-- Third Picture -->
+              <div class="description-container">
+                <img src="images/explore/MerryGoRound1.jpg">
+                <div class="icon-container"></div>
+                <div class="icon"><img src="images/home/icons/merry-go-round.png" alt=""></div>
+                <div class=" description alternatecolors1">
+                  <h2>MerryGoRound</h2>
+                    <p id = "ferrywheel">
+                      Step back in time and experience the magic of our enchanting Merry Go Round! With its beautifully painted horses and charming music, our carousel is a timeless attraction that will delight both young and old. Take a spin on one of our majestic steeds and feel the joy of simpler times as you go round and round. Don’t miss out on this classic ride - come experience the charm of our Merry Go Round today
+                    </p>
+                </div>
+              </div>
+              <!-- Fourth Picture -->
+              <div class="description-container">
+                <img src="images/explore/Umbrella.jpg">
+                <div class="icon-container"></div>
+                <div class="icon"><img src="images/home/icons/umbrella.png" alt=""></div>
+                <div class=" description  alternatecolors2">
+                    <h2>Umbrella</h2>
+                    <p id = "ferrywheel">
+                      Escape the heat and enjoy a leisurely ride on our delightful umbrella ride! With its colorful umbrellas and gentle motion, our ride is the perfect way to relax and unwind. Sit back and enjoy the breeze as you glide through the air, taking in the sights and sounds of the park. Perfect for all ages, our umbrella ride is a must-try attraction. Don’t miss out - come experience the charm of our umbrella ride today!
+                    </p>
+                </div>
+              </div>
+            </section>
+            <!-- FOOTER START -->
+            <footer>
+              <div class="foot-section foot-section1"><!-- footer left section -->
+                  <h2>Contact Us</h2><br>
+                  <a href="">Phone Directory</a>
+              </div>
+              <div class="foot-section foot-section2"><!-- footer middle section -->
+                  <h2>Explore</h2><br>
+                  <a href="explore.html">Events</a><br>
+                  <a href="explore.html">Park Hours</a><br>
+                  <a href="explore.html">Map</a><br>
+                  <h2>Tickets</h2><br>
+                  <a href="booking.html">Park Pass</a><br>
+                  <a href="booking.html">Individual tickets</a><br>
+                  <a href="booking.html">Package Deals</a><br>
+              </div>
+              <div class="foot-section foot-section3"><!-- footer right section -->
+                  <h2>Stay Connected</h2><br>
+                  <a href="https://www.facebook.com/" target="_blank"><img src="images/home/icons/facebook.png" alt="facebook icon" class="brand-icons"></a>
+                  <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="images/home/icons/instagram.png" alt="instagram icon" class="brand-icons"></a>
+                  <a href="https://twitter.com/" target="_blank"><img src="images/home/icons/twitter.png" alt="twitter icon" class="brand-icons"></a>
+                  <a href="https://www.youtube.com/" target="_blank"><img src="images/home/icons/youtube.png" alt="youtube icon" class="brand-icons"></i></a>
+              </div>
+          </footer>
+          <!-- FOOTER END -->
+  </body>
+</html>

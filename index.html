@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Theme Park</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/home.css">
+    </head>
+    <body>
+        <!-- NAVIGATION BAR START -->
+        <nav>
+            <div class="nav-left"><!-- left half of navigation bar -->
+                <a href="index.html" id="logo"><img src="images/home/navigation bar/logo.png" alt="logo"></a>
+            </div>
+            <div class="nav-right"><!-- right side of navigation bar -->
+                <a href="booking.html" id="tickets">Tickets</a><!-- tickets button leads to booking page -->
+                <a href="explore.html" id="explore">Explore</a><!-- explore button leads to explore page-->
+                <a href="" id="login">Login / Signup</a><!-- login/signup button -->
+                <div class="search-container"><!-- container for search bar -->
+                    <form action="/search" method="get">
+                      <input class="search" id="searchleft" type="search" name="q" placeholder="Search">
+                      <label class="button searchbutton" for="searchleft"><img src="images/home/icons/search icon.png" class="search-icon" alt="search button"></label>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- NAVIGATION BAR END -->
+
+        <!-- MAIN DISPLAY START -->
+        <main class="main-display"><!-- container for eveything in view when page is loaded -->
+            <div id="slideshow"><!-- slideshow for multiple images -->
+                <div class="slide-wrapper">
+                  <div class="slide"><img src="images/home/main display/1.jpg" alt="display image 1"></div>
+                  <div class="slide"><img src="images/home/main display/2.jpg" alt="display image 2"></div>
+                  <div class="slide"><img src="images/home/main display/3.jpg" alt="display image 3"></div>
+                  <div class="slide"><img src="images/home/main display/4.jpg" alt="display image 4"></div>
+                  <div class="slide"><img src="images/home/main display/5.jpg" alt="display image 5"></div>
+                </div>
+            </div>
+            <div class="main-display-text"><!-- container for main text overlaying the slideshow above -->
+                <h1>Come And Enjoy<br>The Thrill</h1>
+                <a href="explore.html">Learn More</a><!-- button leading to explore page -->
+            </div>
+            <section class="wave"><!-- wave animation container -->
+                <div class='air air1'></div><!-- each div contains one image each of the wave image, image is applied in css as background -->
+                <div class='air air2'></div>
+                <div class='air air3'></div>
+                <div class='air air4'></div>
+              </section>
+        </main>
+        <!-- MAIN DISPLAY END -->
+
+        <!-- ICON DISPLAY -->
+        <section class="icon-display-container"><!-- container for icon display -->
+            <a href="explore.html" class="icon-display"><!-- icon display containing icno title and description -->
+                <h2>Roller Coaster Ride</h2><!-- icon display title -->
+                <span><!-- span here so that image does not cut off when overflow is hidden -->
+                    <img class="icon" src="images/home/icons/roller-coaster.png" alt="image of roller coaster"><!-- icon image -->
+                </span>
+                <div class="icon-container"></div><!-- div for rotating circle animation around icon -->
+                <p>Experience the ultimate thrill ride with heart-stopping drops and breathtaking loops on our state-of-the-art roller coaster</p><!-- description for icon display -->
+            </a>
+            <a href="explore.html" class="icon-display"><!-- icon display containing icno title and description -->
+                <h2>Merry Go Round</h2><!-- icon display title -->
+                <span><!-- span here so that image does not cut off when overflow is hidden -->
+                    <img class="icon" src="images/home/icons/merry-go-round.png" alt="image of merry go round "><!-- icon image -->
+                </span>
+                <div class="icon-container"></div><!-- div for rotating circle animation around icon -->
+                <p>Step back in time and experience the magic of our enchanting carousel with our beautiful horses and charming music</p>
+            </a>
+            <a href="explore.html" class="icon-display"><!-- icon display containing icno title and description -->
+                <h2>Ferris Wheel</h2><!-- icon display title -->
+                <span><!-- span here so that image does not cut off when overflow is hidden -->
+                    <img class="icon" src="images/home/icons/ferris-wheel.png" alt="image of ferris wheel"><!-- icon image -->
+                </span>
+                <div class="icon-container"></div><!-- div for rotating circle animation around icon -->
+                <p>Soar high above the city and enjoy breathtaking views on our relaxing Ferris wheel</p>
+            </a>
+            <a href="explore.html" class="icon-display"><!-- icon display containing icno title and description -->
+                <h2>Umbrella</h2><!-- icon display title -->
+                <span><!-- span here so that image does not cut off when overflow is hidden -->
+                    <img class="icon" src="images/home/icons/umbrella.png" alt="image of umbrella ride"><!-- icon image -->
+                </span>
+                <div class="icon-container"></div><!-- div for rotating circle animation around icon -->
+                <p>Escape the heat and enjoy a leisurely ride on our delightful umbrella ride with colorful umbrellas and gentle motion</p>
+            </a>
+        </section>
+        <!-- ICON DISPLAY END -->
+
+        <!-- DESCRIPTION DISPLAY START -->
+        <article class="description-display"><!-- container for article with card display and description(more about us) -->
+            <div class="card-group" data-index="0" data-status="active"><!-- card display containing 4 big cards and 4 small cards-->
+                <div class="little-card card">
+                </div>
+                <div class="big-card card">
+                </div>
+                <div class="little-card card">
+                </div>
+                <div class="big-card card">
+                </div>
+                <div class="little-card card">
+                </div>
+                <div class="big-card card">
+                </div>
+                <div class="little-card card">
+                </div>
+                <div class="big-card card">
+                </div>
+            </div>
+            <div class="description"><!-- container for description -->
+                <h1>A day in a park is better than any other day!</h1>
+                <p>Get ready for a day of non-stop fun and excitement at our amazing theme park! With thrilling rides, enchanting attractions, and unforgettable experiences, our park has something for everyone. Soar high on our Ferris wheel, scream your lungs out on our roller coaster, and step back in time on our charming carousel. Don’t miss out on the adventure of a lifetime - come visit our theme park today!</p><!-- elaboration on park -->
+                <div><!-- container for img with title 1 -->
+                    <img src="images/home/icons/certified.png" class="icon" alt="TSE certified image">
+                    <h2>TSE Certified</h2>
+                </div>
+                <div><!-- container for img with title 2 -->
+                    <img src="images/home/icons/confetti.png" class="icon" alt="image of party popper">
+                    <h2>Special Events</h2>
+                </div>
+                <a href="explore.html">More About Us<img src="images/home/icons/right.png" class="icon" alt="arrow right image"></a><!-- more about us button leading to explore page -->
+            </div>
+        </article>
+        <!-- DESCRIPTION DISPLAY END -->
+
+        <!-- NEWSLETTER START -->
+        <article class="newsletter-container">
+            <div class="newsletter-signup">
+                <h1>SIGN UP FOR OUR NEWSLETTER TODAY!</h1>
+                <input type="email" placeholder="Email"><br>
+                <button>Submit</button>
+            </div>
+        </article> 
+        <!-- NEWSLETTER END -->
+
+        <!-- FOOTER START -->
+        <footer>
+            <div class="foot-section foot-section1"><!-- footer left section -->
+                <h2>Contact Us</h2><br>
+                <a href="">Phone Directory</a>
+            </div>
+            <div class="foot-section foot-section2"><!-- footer middle section -->
+                <h2>Explore</h2><br>
+                <a href="explore.html">Events</a><br>
+                <a href="explore.html">Park Hours</a><br>
+                <a href="explore.html">Map</a><br>
+                <h2>Tickets</h2><br>
+                <a href="booking.html">Park Pass</a><br>
+                <a href="booking.html">Individual tickets</a><br>
+                <a href="booking.html">Package Deals</a><br>
+            </div>
+            <div class="foot-section foot-section3"><!-- footer right section -->
+                <h2>Stay Connected</h2><br>
+                <a href="https://www.facebook.com/" target="_blank"><img src="images/home/icons/facebook.png" alt="facebook icon" class="brand-icons"></a>
+                <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="images/home/icons/instagram.png" alt="instagram icon" class="brand-icons"></a>
+                <a href="https://twitter.com/" target="_blank"><img src="images/home/icons/twitter.png" alt="twitter icon" class="brand-icons"></a>
+                <a href="https://www.youtube.com/" target="_blank"><img src="images/home/icons/youtube.png" alt="youtube icon" class="brand-icons"></i></a>
+            </div>
+        </footer>
+        <!-- FOOTER END -->
+    </body>
+</html>
+
+<!-- WHOLE PAGE DONE BY JEREMY X)-->
